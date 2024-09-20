@@ -2,6 +2,7 @@
 trabajos de clase 
 
 # ejemplo1 ingreso de datos naturales mcd
+``` python
     
 def calcular_mcd(a, b):#funcion para hallar el MCD
     while b:
@@ -15,10 +16,10 @@ num2 = int(input(("Ingrese el segundo número: ")))
 
 mcd = calcular_mcd(num1, num2)
 print(f"El MCD de {num1} y {num2} es: {mcd}")
-
+```
 
 # ejemplo2 ingreso de ecepciones y condiciones para ingreso de datos correctos
-
+``` python
 def obtener_entero(mensaje):#para que pida constatemente el numero caso que se ingrese un numero no solicitado o no cumpla con el enunciado
     while True:
         try: #agregamos una excepcionasd
@@ -42,3 +43,4 @@ num2 = obtener_entero("Ingrese el segundo número: ")
 
 mcd = calcular_mcd(num1, num2)
 print(f"El MCD de {num1} y {num2} es: {mcd}")
+```
